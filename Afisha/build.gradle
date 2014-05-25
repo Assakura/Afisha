@@ -14,3 +14,20 @@ allprojects {
         mavenCentral()
     }
 }
+/*signingConfigs {
+    release {
+        storeFile file("C:\\Users\\ИмяПользователя\\KEYSTORE.jks")
+        storePassword "ПарольХранилища"
+        keyAlias "ИмяПодписи"
+        keyPassword "ПарольПодписи"
+    }
+
+    buildTypes {
+        release {
+            runProguard true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+*/
